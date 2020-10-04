@@ -1,0 +1,27 @@
+{
+  "name": "giveaway-bot",
+  "version": "1.0.0",
+  "description": "A giveaway bot for discord",
+  "main": "./scr/bot.js",
+  "scripts": {
+    "test": "node ./src/bot.js"
+  },
+  "keywords": [
+    "Giveaways",
+    "discord",
+    "discordbot"
+  ],
+  "author": "Zan Michelle Lipovsek#2142",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "better-sqlite3": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "eris": "^0.13.3",
+    "eris-additions": "^1.4.1",
+    "eris-sharder": "^1.10.0",
+    "moment": "^2.28.0",
+    "ms": "^2.1.2",
+    "pluris": "^0.3.1",
+    "pretty-ms": "^7.0.0"
+  }
+}
